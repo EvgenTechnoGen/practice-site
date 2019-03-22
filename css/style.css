@@ -11,3 +11,7 @@ li {
   text-decoration: none;
   list-style: none;
 }
+
+body {
+  font-family: 'Raleway', sans-serif;
+}
