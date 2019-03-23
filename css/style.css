@@ -34,3 +34,9 @@ nav {
   width: 800px;
   height: 100px;
 }
+
+.topnav {
+  background-color: #fff;
+  font-size: 14px;
+  margin-top: 40px;
+}
