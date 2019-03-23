@@ -22,3 +22,15 @@ body {
   display: flex;
   justify-content: center;
 }
+
+.graficlogo {
+  padding: 5px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+nav {
+  margin: auto;
+  width: 800px;
+  height: 100px;
+}
