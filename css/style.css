@@ -51,3 +51,7 @@ nav {
 .topnav a:hover {
   border-bottom: solid #000;
 }
+
+.icon { /*Убрали иконку*/
+  display: none;
+}
