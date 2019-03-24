@@ -75,4 +75,9 @@ nav {
   .topnav.responsive {
     position: relative;
   }
+  .topnav.responsive a.icon {
+    position: absolute;
+    right: 0;
+    left: 0;
+  }
 }
