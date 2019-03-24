@@ -52,10 +52,29 @@ nav {
   border-bottom: solid #000;
 }
 
-.icon { /*Убрали иконку*/
+.topnav .icon { /*Убрали иконку*/
   display: none;
 }
 
+.mw-100 {
+  max-width: 100%;
+  min-width: 100%;
+}
+
+.advantages_container {
+  display: flex;
+  justify-content: center;
+}
+
+.advantages {
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  flex-wrap: wrap;
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
 /*Adaptive part*/
 
 @media screen and (max-width: 768px) {
@@ -85,5 +104,7 @@ nav {
     display: block;
     text-align: left;
   }
-  
+  .advantages_items {
+    width: 45%;
+  }
 }
