@@ -79,6 +79,7 @@ nav {
 .advantages_items {
   width: 30%;
 }
+
 /*Adaptive part*/
 
 @media screen and (max-width: 768px) {
@@ -110,5 +111,14 @@ nav {
   }
   .advantages_items {
     width: 45%;
+  }
+}
+
+@media screen and (max-width: 420px) {
+  .advantages {
+    flex-direction: column;
+  }
+  .advantages_items {
+    width: 100%;
   }
 }
