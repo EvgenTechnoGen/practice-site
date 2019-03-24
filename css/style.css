@@ -81,8 +81,9 @@ nav {
     left: 0;
   }
   .topnav.responsive a {
-    float: none;
+    float: none; /*to make a column*/
     display: block;
     text-align: left;
   }
+  
 }
