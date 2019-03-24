@@ -62,4 +62,11 @@ nav {
   .topnav a:not(:first-child) {
     display: none;
   }
+  .topnav a.icon {
+    float: right;
+    margin-top: -17px;
+    display: block;
+    color: black;
+  }
+  
 }
