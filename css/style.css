@@ -80,4 +80,9 @@ nav {
     right: 0;
     left: 0;
   }
+  .topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: left;
+  }
 }
