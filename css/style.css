@@ -104,6 +104,11 @@ footer nav a:hover {
   border-bottom: 1px solid white;
 }
 
+.social img {
+  margin-left: 10px;
+  margin-bottom: 10px;
+}
+
 /*Adaptive part*/
 
 @media screen and (max-width: 768px) {
