@@ -80,6 +80,15 @@ nav {
   width: 30%;
 }
 
+footer {
+  width: 100%
+  height: auto;
+  background-color: black;
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 20px;
+}
+
 /*Adaptive part*/
 
 @media screen and (max-width: 768px) {
