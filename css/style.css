@@ -98,6 +98,7 @@ footer a {
 footer p {
   color: white;
   margin-top: 20px;
+  padding-bottom: 20px;
 }
 
 footer nav a:hover {
