@@ -86,7 +86,13 @@ footer {
   background-color: black;
   margin: 0 auto;
   text-align: center;
-  padding-top: 20px;
+  padding-top: 25px;
+}
+
+footer a {
+  color: white;
+  font-size: 14px;
+  margin-left: 10px;
 }
 
 /*Adaptive part*/
