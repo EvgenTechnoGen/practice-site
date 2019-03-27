@@ -39,20 +39,21 @@ nav {
   background-color: #fff;
   font-size: 14px;
   margin-top: 40px;
+  text-align: center;
 }
 
 .topnav a {
-  color: #000;
   text-align: center;
+  color: #000;
   padding: 14px 16px;
   font-size: 15px;
 }
 
 .topnav a:hover {
-  border-bottom: solid #000;
+  border-bottom: 2px solid #000;
 }
 
-.topnav .icon { /*Убрали иконку*/
+.topnav .icon {
   display: none;
 }
 
@@ -82,7 +83,7 @@ nav {
 }
 
 footer {
-  width: 100%
+  width: 100%;
   height: auto;
   background-color: black;
   margin: 0 auto;
@@ -117,13 +118,12 @@ footer nav a:hover {
   border-radius: 50%;
 }
 
-/*Adaptive part*/
 
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
     display: none;
   }
-  .topnav a.icon {
+  .topnav a.icon{
     float: right;
     margin-top: -17px;
     display: block;
@@ -139,10 +139,10 @@ footer nav a:hover {
   .topnav.responsive a.icon {
     position: absolute;
     right: 0;
-    left: 0;
+    top: 0;
   }
   .topnav.responsive a {
-    float: none; /*to make a column*/
+    float: none; /*Чтобы определялись в колонку*/
     display: block;
     text-align: left;
   }
@@ -151,7 +151,7 @@ footer nav a:hover {
   }
 }
 
-@media screen and (max-width: 420px) {
+@media screen and (max-width: 420px){
   .advantages {
     flex-direction: column;
   }
