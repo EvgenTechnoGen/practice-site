@@ -1,2 +1,3 @@
 # practice-site
-Web-site for my own practice
+Web-site for my own practice with a lot of pages
+
