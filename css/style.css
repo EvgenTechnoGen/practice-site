@@ -122,6 +122,8 @@ footer nav a:hover {
 
 .gallery {
   width: 90%;
+  margin: auto;
+  display: flex;
 }
 
 .photo-itm img {
