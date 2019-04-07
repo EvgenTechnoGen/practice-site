@@ -128,12 +128,20 @@ footer nav a:hover {
   margin-bottom: 110px;
 }
 
-.photo-itm img {
-  width: 497px;
-  height: 277px;
+.photo-itm {
+  width: 25%;
   display: inline;
-  margin-top: 50px;
   text-align: center;
+  margin-top: 50px;
+}
+
+.photo-itm img {
+  box-sizing: border-box;
+  max-width: 100%;
+  opacity: 0.8;
+  padding: 5px;
+  padding-right: 20px;
+  margin-bottom: 10px;
 }
 
 @media screen and (max-width: 768px) {
