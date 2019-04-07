@@ -118,6 +118,16 @@ footer nav a:hover {
   border-radius: 50%;
 }
 
+/* Projects.html css */
+
+.gallery {
+  width: 90%;
+}
+
+.photo-itm img {
+  width: 497px;
+  height: 277px;
+}
 
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
