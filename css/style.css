@@ -144,6 +144,11 @@ footer nav a:hover {
   margin-bottom: 10px;
 }
 
+.photo-itm:hover {
+  opacity: 1;
+  transition: all 0.4s;
+}
+
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
     display: none;
