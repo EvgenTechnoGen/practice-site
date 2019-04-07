@@ -131,6 +131,9 @@ footer nav a:hover {
 .photo-itm img {
   width: 497px;
   height: 277px;
+  display: inline;
+  margin-top: 50px;
+  text-align: center;
 }
 
 @media screen and (max-width: 768px) {
