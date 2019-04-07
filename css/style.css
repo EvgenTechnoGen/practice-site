@@ -144,7 +144,7 @@ footer nav a:hover {
   margin-bottom: 10px;
 }
 
-.photo-itm:hover {
+.photo-itm img:hover {
   opacity: 1;
   transition: all 0.4s;
 }
