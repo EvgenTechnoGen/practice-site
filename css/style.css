@@ -182,6 +182,10 @@ footer nav a:hover {
   font-weight: 100;
 }
 
+.blog-text p {
+  color: #4d4d4d;
+}
+
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
     display: none;
