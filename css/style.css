@@ -164,6 +164,14 @@ footer nav a:hover {
   color: #ff4d4d;
 }
 
+blog-cover {
+  background: url(../img/priroda.jpg);
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+  height: 15rem;
+  box-shadow: inset rgba(0, 0, 0, 0.2) 0 64px 64px 16px;
+}
+
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
     display: none;
