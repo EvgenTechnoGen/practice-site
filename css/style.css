@@ -159,6 +159,11 @@ footer nav a:hover {
   width: 50rem;
 }
 
+.blog-container a:hover {
+  border-color: #ff4d4d;
+  color: #ff4d4d;
+}
+
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
     display: none;
