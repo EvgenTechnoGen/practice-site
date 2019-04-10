@@ -208,6 +208,10 @@ footer nav a:hover {
   letter-spacing: 1px; /* Отступы между буквами */
   padding: 0 .5rem;
   text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 5rem;
+}
 
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
