@@ -228,6 +228,16 @@ footer nav a:hover {
   padding-left: 0;
 }
 
+.blog-footer li {
+  color: #999999;
+  font-size: .75rem;
+  height: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  white-space: nowrap;
+}
+
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
     display: none;
