@@ -150,7 +150,14 @@ footer nav a:hover {
 }
 
 /* blog.html styles */
-
+.blog-container {
+  background: #fafafa;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
+  font-weight: 100;
+  margin: 48px auto;
+  width: 50rem;
+}
 
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
