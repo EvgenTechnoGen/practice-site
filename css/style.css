@@ -238,6 +238,13 @@ footer nav a:hover {
   white-space: nowrap;
 }
 
+.published-date {
+  border: 1px solid #999999;
+  border-radius: 3px;
+  padding: 0 .5rem;
+}
+
+
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
     display: none;
