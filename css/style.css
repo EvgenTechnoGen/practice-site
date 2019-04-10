@@ -172,6 +172,11 @@ footer nav a:hover {
   box-shadow: inset rgba(0, 0, 0, 0.2) 0 64px 64px 16px;
 }
 
+.blog-body {
+  margin: 0 auto;
+  width: 80%;
+}
+
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
     display: none;
