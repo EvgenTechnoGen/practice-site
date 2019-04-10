@@ -198,6 +198,12 @@ footer nav a:hover {
   margin-left: 0.5rem;
 }
 
+.blog-tags a {
+  border: 1px solid #999999;
+  border-radius: 3px;
+  color: #999999;
+  font-size: .75rem;
+
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
     display: none;
