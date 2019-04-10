@@ -194,6 +194,10 @@ footer nav a:hover {
   padding-left: 0;
 }
 
+.blog-tags li + li {
+  margin-left: 0.5rem;
+}
+
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
     display: none;
