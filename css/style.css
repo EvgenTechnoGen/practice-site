@@ -164,7 +164,7 @@ footer nav a:hover {
   color: #ff4d4d;
 }
 
-blog-cover {
+.blog-cover {
   background: url(../img/priroda.jpg);
   background-size: cover;
   border-radius: 5px 5px 0 0;
