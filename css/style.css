@@ -203,6 +203,11 @@ footer nav a:hover {
   border-radius: 3px;
   color: #999999;
   font-size: .75rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: 1px; /* Отступы между буквами */
+  padding: 0 .5rem;
+  text-align: center;
 
 @media screen and (max-width: 768px) {
   .topnav a:not(:first-child) {
