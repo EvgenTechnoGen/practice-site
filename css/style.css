@@ -280,6 +280,12 @@ footer nav a:hover {
   }
 }
 
+/* Contacts css */
+.groupphoto {
+  
+}
+
+
 @media screen and (max-width: 420px){
   .advantages {
     flex-direction: column;
