@@ -282,7 +282,7 @@ footer nav a:hover {
 
 /* Contacts css */
 .groupphoto {
-  
+  position: relative;
 }
 
 
